@@ -1,12 +1,9 @@
 ﻿import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import { existsSync } from 'node:fs';
-
-const hasCustomDomain = existsSync('public/CNAME');
-const base = process.env.GITHUB_ACTIONS && !hasCustomDomain ? '/Portfolio/' : '/';
 
 export default defineConfig({
-  base,
+  // Relative asset URLs work on both the /Portfolio/ project path and a custom domain root.
+  base: './',
   plugins: [react()],
   server: {
     port: 3000,
