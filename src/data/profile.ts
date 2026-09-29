@@ -1,0 +1,177 @@
+import { ProfileData, NavItem } from '../types/portfolio';
+
+export const profileData: ProfileData = {
+  name: "BHAVESH CHIKATE",
+  identity: "ASPIRING SOFTWARE DEVELOPER",
+  brandPhrase: "CODE • BUILD • SOLVE",
+  shortDescription: "Diploma Computer Engineering student exploring software development, AI and Prompt Engineering.",
+  community: {
+    name: "THE KUBICS",
+    role: "Member",
+    url: "https://thekubics.space",
+    github: "https://github.com/thekubics-org",
+    description: "A focused custom software studio building web, mobile, and desktop applications with full ownership and high quality.",
+    philosophy: "Build things that are useful. Learn from the process. Ship code that works.",
+  },
+  socials: {
+    github: "https://github.com/bhaveshchikate86-ux",
+    linkedin: "https://www.linkedin.com/in/bhavesh-chikate-32bab13a6/",
+    community: "https://thekubics.space",
+    communityGithub: "https://github.com/thekubics-org",
+  },
+  education: {
+    degree: "Diploma in Computer Engineering",
+    field: "Computer Science & Engineering",
+    description: "Building a rigorous academic grounding in computer logic, software principles, data structures, and computer hardware systems.",
+  },
+  exploring: [
+    "AI & Prompt Engineering",
+    "C Systems Programming",
+    "Linux CLI & Toolchains",
+    "Modern Web Technologies",
+    "LLM Evaluation & Context Grounding",
+    "Developer Workflows",
+  ],
+  skills: [
+    {
+      id: "01",
+      name: "C",
+      category: "CORE SYSTEMS",
+      description: "Low-level programming fundamentals, pointers, memory management, and algorithmic problem solving.",
+      tag: "Foundation",
+    },
+    {
+      id: "02",
+      name: "C++",
+      category: "OBJECT-ORIENTED PROGRAMMING",
+      description: "Object-oriented software concepts, standard template library (STL), data abstraction, and efficient system code.",
+      tag: "Systems & OOP",
+    },
+    {
+      id: "03",
+      name: "Linux",
+      category: "OPERATING SYSTEM",
+      description: "Terminal navigation, shell workflows, file system hierarchy, and Unix-based development environment.",
+      tag: "Environment",
+    },
+    {
+      id: "04",
+      name: "HTML",
+      category: "WEB FOUNDATIONS",
+      description: "Semantic page structure, modern web fundamentals, accessibility, and clean interface scaffolding.",
+      tag: "Web Structure",
+    },
+    {
+      id: "05",
+      name: "CSS",
+      category: "STYLING & RESPONSIVE DESIGN",
+      description: "Modern layout systems (Flexbox, Grid), responsive breakpoints, dark/light styling, and clean interface design.",
+      tag: "Web Styling",
+    },
+    {
+      id: "06",
+      name: "BAS",
+      category: "APPLICATIONS & SYSTEMS",
+      description: "Basic applications, software logic fundamentals, algorithmic problem decomposition, and systems foundations.",
+      tag: "Fundamentals",
+    },
+    {
+      id: "07",
+      name: "AI & Prompt Engineering",
+      category: "EMERGING TECH",
+      description: "Prompt architecture, structured system instructions, few-shot prompting, and generative model exploration.",
+      tag: "Specialization",
+    },
+    {
+      id: "08",
+      name: "Git",
+      category: "VERSION CONTROL",
+      description: "Branching workflows, version tracking, atomic commits, and repository maintenance.",
+      tag: "Tooling",
+    },
+    {
+      id: "09",
+      name: "GitHub",
+      category: "COLLABORATION",
+      description: "Open source publishing, remote repositories, markdown documentation, and developer portfolio syncing.",
+      tag: "Platform",
+    },
+  ],
+  journey: [
+    {
+      number: "01",
+      category: "FOUNDATION",
+      title: "Programming Fundamentals & C",
+      description: "Building strong computational logic, understanding memory, variables, pointers, and foundational algorithms in C.",
+    },
+    {
+      number: "02",
+      category: "SYSTEMS",
+      title: "Linux Environment & CLI",
+      description: "Embracing the Linux operating system as the primary developer environment for tooling, scripts, and systems exploration.",
+    },
+    {
+      number: "03",
+      category: "EXPLORATION",
+      title: "AI & Prompt Engineering Tasks",
+      description: "Tackling hands-on internship tasks to engineer precision prompts, structured AI outputs, and model-assisted development.",
+    },
+    {
+      number: "04",
+      category: "COLLABORATION",
+      title: "The Kubics Community Membership",
+      description: "Joining The Kubics software studio to collaborate with peers, share knowledge, and embrace a culture of shipping software that works.",
+    },
+  ],
+  featuredProject: {
+    id: "01",
+    name: "FUTURE_PE_01",
+    fullName: "bhaveshchikate86-ux/FUTURE_PE_01",
+    category: "AI & PROMPT ENGINEERING",
+    description: "My first GitHub internship project focusing on Prompt Engineering Task 1. Explores structured prompts, persona conditioning, and prompt testing methodologies.",
+    url: "https://github.com/bhaveshchikate86-ux/FUTURE_PE_01",
+    tags: ["Prompt Engineering", "Internship Task 1", "AI Exploration", "Git"],
+  },
+  projects: [
+    {
+      id: "01",
+      name: "FUTURE_PE_01",
+      fullName: "bhaveshchikate86-ux/FUTURE_PE_01",
+      category: "Internship Task 1",
+      description: "My first GitHub project for internship Task 1 exploring structured AI prompt engineering workflows.",
+      url: "https://github.com/bhaveshchikate86-ux/FUTURE_PE_01",
+      tags: ["Prompt Engineering", "AI Workflows", "Task 1"],
+    },
+    {
+      id: "02",
+      name: "FUTURE_PE_02",
+      fullName: "bhaveshchikate86-ux/FUTURE_PE_02",
+      category: "Internship Task 2",
+      description: "Internship Task 2 repository advancing prompt patterns, validation criteria, and structured output formatting.",
+      url: "https://github.com/bhaveshchikate86-ux/FUTURE_PE_02",
+      tags: ["Prompt Engineering", "AI Validation", "Task 2"],
+    },
+    {
+      id: "03",
+      name: "FUTURE_PE_03",
+      fullName: "bhaveshchikate86-ux/FUTURE_PE_03",
+      category: "Internship Task 3",
+      description: "Internship Task 3 repository consolidating AI experimentation, iterative testing, and repository documentation.",
+      url: "https://github.com/bhaveshchikate86-ux/FUTURE_PE_03",
+      tags: ["AI Experimentation", "Evaluation", "Task 3"],
+    },
+  ],
+};
+
+export const navItems: NavItem[] = [
+  { label: "projects", href: "#featured" },
+  { label: "system", href: "#telemetry" },
+  { label: "connect", href: "#contact" },
+];
+
+export const heroStack = [
+  { id: "01", label: "C & POSIX", tone: "text-cyan-400" },
+  { id: "02", label: "Linux CLI", tone: "text-emerald-400" },
+  { id: "03", label: "AI Prompt Pipelines", tone: "text-violet-400" },
+  { id: "04", label: "Git / GitHub", tone: "text-amber-300" },
+];
